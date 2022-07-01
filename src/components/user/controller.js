@@ -118,8 +118,8 @@ export const callback = async (req, res) => {
   const response = await axios.post(
     "https://github.com/login/oauth/access_token",
     {
-      client_id: "9fbae9364e97e6c8ac5c",
-      client_secret: "0e739b546036a0879be0d4d071d409070c9b603a",
+      client_id: "888f87ad7b76ef57193f",
+      client_secret: "d2306bb7e832caa18b7a3b9e32cf6380229c3997",
       code,
     }
   );
